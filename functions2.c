@@ -83,7 +83,7 @@ int print_non_printable(va_list types, char buffer[],
 			buffer[i + offset] = str[i];
 		else
 			offset += append_hexa_code(str[i], buffer, i + offset);
-		i++
+		i++;
 	}
 	buffer[i + offset] = '\0';
 	return (write(1, buffer, i + offset));
