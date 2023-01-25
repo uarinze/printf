@@ -124,7 +124,7 @@ int write_unsigned(int is_negative, int ind, char buffer[],
 
 int is_printable(char);
 
-int append_hexa_code(char, char[] int);
+int append_hexa_code(char, char[], int);
 
 int is_digit(char);
 
