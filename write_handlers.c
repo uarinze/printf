@@ -75,8 +75,7 @@ int write_number(int is_negative, int ind, char buffer[],
 /**
  * write_num - write a number using buffer
  * @ind: indx at which num starts at buffer
- * @buffer: buffer array to handle
- * printing
+ * @buffer: buffer array to handle printing
  * @flags: calculats active flags
  * @width: get width
  * @prec: precision specifier
